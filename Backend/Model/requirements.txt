@@ -1,0 +1,7 @@
+psycopg2-binary
+pandas
+google-generativeai
+SQLAlchemy
+python-dotenv
+Flask
+Flask-Cors
