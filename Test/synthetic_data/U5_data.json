@@ -1,0 +1,1274 @@
+{
+    "user_id": "U5",
+    "persona": "Fatigued Learner",
+    "sessions": [
+        {
+            "session_id": 1,
+            "subtopic_id": "ST1.1.1",
+            "current_accuracy": 0.7200000000000001,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T03:52:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": true,
+                    "answered_at": "2025-09-24T18:54:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-09-25T09:06:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T08:52:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": true,
+                    "answered_at": "2025-09-24T20:37:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T09:40:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T05:52:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-09-25T00:03:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": true,
+                    "answered_at": "2025-09-24T19:33:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T14:33:17.412093"
+                }
+            ],
+            "adaptation": {}
+        },
+        {
+            "session_id": 2,
+            "subtopic_id": "ST1.1.2",
+            "current_accuracy": 0.64,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": true,
+                    "answered_at": "2025-09-26T07:49:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": true,
+                    "answered_at": "2025-09-26T11:24:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T22:06:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": true,
+                    "answered_at": "2025-09-26T02:50:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-09-26T06:08:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-09-26T05:38:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-09-26T14:17:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-09-25T21:48:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-09-26T02:33:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": true,
+                    "answered_at": "2025-09-25T22:48:17.412093"
+                }
+            ],
+            "adaptation": {}
+        },
+        {
+            "session_id": 3,
+            "subtopic_id": "ST1.1.3",
+            "current_accuracy": 0.56,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": true,
+                    "answered_at": "2025-09-27T15:13:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T00:38:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T13:14:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T13:59:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T09:56:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": true,
+                    "answered_at": "2025-09-27T16:14:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T15:41:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T12:01:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-09-26T20:03:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": true,
+                    "answered_at": "2025-09-26T21:52:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "2 days",
+                "reason": "User performance: 0.56% accuracy"
+            }
+        },
+        {
+            "session_id": 4,
+            "subtopic_id": "ST1.1.4",
+            "current_accuracy": 0.48000000000000004,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T20:14:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": true,
+                    "answered_at": "2025-09-28T13:32:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-09-27T19:41:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T16:02:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T08:13:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T12:11:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T02:52:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T01:26:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T08:07:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T02:20:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.48% accuracy"
+            }
+        },
+        {
+            "session_id": 5,
+            "subtopic_id": "ST1.1.5",
+            "current_accuracy": 0.4,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T11:32:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T22:52:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T23:24:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": true,
+                    "answered_at": "2025-09-29T06:20:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": true,
+                    "answered_at": "2025-09-29T15:19:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T06:26:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T20:50:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": true,
+                    "answered_at": "2025-09-29T01:58:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-09-28T18:31:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T00:11:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.40% accuracy"
+            }
+        },
+        {
+            "session_id": 6,
+            "subtopic_id": "ST1.1.6",
+            "current_accuracy": 0.32000000000000006,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": true,
+                    "answered_at": "2025-09-29T21:48:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T12:54:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T11:13:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T16:24:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T23:20:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T20:48:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T21:26:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T12:58:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T00:14:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-09-29T18:45:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.32% accuracy"
+            }
+        },
+        {
+            "session_id": 7,
+            "subtopic_id": "ST1.1.7",
+            "current_accuracy": 0.24,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T04:11:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T20:51:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T10:34:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T13:53:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T20:39:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T02:24:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": true,
+                    "answered_at": "2025-10-01T11:59:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T07:04:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-09-30T20:24:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T12:20:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.24% accuracy"
+            }
+        },
+        {
+            "session_id": 8,
+            "subtopic_id": "ST1.1.8",
+            "current_accuracy": 0.16000000000000003,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T02:56:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": true,
+                    "answered_at": "2025-10-02T15:32:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T00:04:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T23:50:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T14:34:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": true,
+                    "answered_at": "2025-10-01T19:57:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-01T20:19:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T06:25:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T03:07:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T08:57:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.16% accuracy"
+            }
+        },
+        {
+            "session_id": 9,
+            "subtopic_id": "ST1.1.9",
+            "current_accuracy": 0.08000000000000007,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T07:52:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T21:36:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T14:11:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T00:17:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-02T22:56:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": true,
+                    "answered_at": "2025-10-03T06:23:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": true,
+                    "answered_at": "2025-10-03T15:48:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T15:24:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T04:54:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T05:23:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.08% accuracy"
+            }
+        },
+        {
+            "session_id": 10,
+            "subtopic_id": "ST1.1.10",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T00:17:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T15:00:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T18:15:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T20:25:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T08:41:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T06:12:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T06:44:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T22:56:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-03T17:27:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T07:52:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "2 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 11,
+            "subtopic_id": "ST1.1.11",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T19:39:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T22:01:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T23:02:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-05T14:30:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-05T09:18:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T19:04:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-05T09:35:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-05T07:36:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-04T21:51:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-05T04:09:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 12,
+            "subtopic_id": "ST1.1.12",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T07:18:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T00:19:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T11:23:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T12:21:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T14:14:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-05T18:59:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T16:04:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T12:56:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T00:19:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T04:55:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "2 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 13,
+            "subtopic_id": "ST1.1.13",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T01:34:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T15:48:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T13:44:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T05:28:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T08:51:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T16:24:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T19:29:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T02:33:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-06T17:19:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T13:09:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "2 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 14,
+            "subtopic_id": "ST1.1.14",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T00:28:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T17:40:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T23:47:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T02:17:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T20:00:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T09:01:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T01:59:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T01:59:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T01:22:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-07T17:01:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 15,
+            "subtopic_id": "ST1.1.15",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T08:12:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T07:29:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T08:35:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T05:33:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T01:16:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T18:23:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T13:57:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-08T22:21:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T13:31:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T13:54:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 16,
+            "subtopic_id": "ST1.1.16",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T20:10:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T07:02:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T03:48:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T03:42:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T18:33:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T05:59:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T01:35:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T22:27:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-09T23:09:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T15:13:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 17,
+            "subtopic_id": "ST1.1.17",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T07:59:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T23:08:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T23:08:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T09:55:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-10T19:54:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T11:57:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T01:43:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T07:48:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T05:32:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T00:12:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "2 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 18,
+            "subtopic_id": "ST1.1.18",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T16:56:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T09:25:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T12:19:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T10:42:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T09:04:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T01:41:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T22:06:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-11T18:21:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T15:13:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T03:07:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 19,
+            "subtopic_id": "ST1.1.19",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T08:05:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T08:53:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T01:20:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T02:09:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T07:41:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T00:43:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-12T22:06:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T06:32:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T04:02:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T16:20:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "4 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        },
+        {
+            "session_id": 20,
+            "subtopic_id": "ST1.1.20",
+            "current_accuracy": 0,
+            "test_data": [
+                {
+                    "question_number": 1,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T18:52:17.412093"
+                },
+                {
+                    "question_number": 2,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T14:08:17.412093"
+                },
+                {
+                    "question_number": 3,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T12:35:17.412093"
+                },
+                {
+                    "question_number": 4,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T19:07:17.412093"
+                },
+                {
+                    "question_number": 5,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T04:03:17.412093"
+                },
+                {
+                    "question_number": 6,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T08:09:17.412093"
+                },
+                {
+                    "question_number": 7,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T03:01:17.412093"
+                },
+                {
+                    "question_number": 8,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T11:11:17.412093"
+                },
+                {
+                    "question_number": 9,
+                    "is_correct": false,
+                    "answered_at": "2025-10-14T08:16:17.412093"
+                },
+                {
+                    "question_number": 10,
+                    "is_correct": false,
+                    "answered_at": "2025-10-13T18:14:17.412093"
+                }
+            ],
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "4 days",
+                "reason": "User performance: 0.00% accuracy"
+            }
+        }
+    ]
+}

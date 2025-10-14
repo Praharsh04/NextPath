@@ -1,0 +1,536 @@
+{
+    "user_id": "U4",
+    "persona": "Average Learner",
+    "sessions": [
+        {
+            "session_id": 1,
+            "subtopic_id": "ST1.1.1",
+            "system_metrics": {
+                "difficulty_level": 0.4637693225838736,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.5181697093165344,
+                "learning_rate": -0.12,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.63,
+                "engagement_level": 0.21625000000000003,
+                "motivation": 0.375,
+                "cognitive_load": 0.17159464935603322,
+                "reaction_to_feedback": 0.1943136409937004
+            },
+            "derived_metrics": {
+                "growth_index": -0.12,
+                "retention_rate": 0.6544360894439549,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.0
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 2,
+            "subtopic_id": "ST1.1.2",
+            "system_metrics": {
+                "difficulty_level": 0.7534883253073752,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.7435760936204331,
+                "learning_rate": 0.07999999999999996,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.71,
+                "engagement_level": 0.36469999999999997,
+                "motivation": 0.57,
+                "cognitive_load": 0.21851161433913882,
+                "reaction_to_feedback": 0.4238383733636468
+            },
+            "derived_metrics": {
+                "growth_index": 0.07999999999999996,
+                "retention_rate": 0.5330953385083571,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.03999999999999998
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 3,
+            "subtopic_id": "ST1.1.3",
+            "system_metrics": {
+                "difficulty_level": 0.7511360036471881,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.5480357345831144,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.69,
+                "engagement_level": 0.26084999999999997,
+                "motivation": 0.46499999999999997,
+                "cognitive_load": 0.23285216113062837,
+                "reaction_to_feedback": 0.25483661658114815
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.5966286821090278,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.03399346342395188
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 4,
+            "subtopic_id": "ST1.1.4",
+            "system_metrics": {
+                "difficulty_level": 0.5336446160472068,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.7144644051917668,
+                "learning_rate": -0.019999999999999907,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.67,
+                "engagement_level": 0.22820000000000007,
+                "motivation": 0.4600000000000001,
+                "cognitive_load": 0.17610272329557822,
+                "reaction_to_feedback": 0.32865362638821277
+            },
+            "derived_metrics": {
+                "growth_index": -0.019999999999999907,
+                "retention_rate": 0.6130743302070634,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.02958039891549806
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 5,
+            "subtopic_id": "ST1.1.5",
+            "system_metrics": {
+                "difficulty_level": 0.4429023642527562,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.8814138730207086,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.65,
+                "engagement_level": 0.19574999999999995,
+                "motivation": 0.45499999999999996,
+                "cognitive_load": 0.15501582748846465,
+                "reaction_to_feedback": 0.4010433122244224
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.5546445509200845,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.02828427124746188
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 6,
+            "subtopic_id": "ST1.1.6",
+            "system_metrics": {
+                "difficulty_level": 0.4592226912051989,
+                "adaptations_triggered": 1,
+                "feedback_quality": 0.7568131787585701,
+                "learning_rate": -0.12,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.53,
+                "engagement_level": 0.1,
+                "motivation": 0.35,
+                "cognitive_load": 0.21583466486644345,
+                "reaction_to_feedback": 0.2648846125654995
+            },
+            "derived_metrics": {
+                "growth_index": -0.12,
+                "retention_rate": 0.6031982857955623,
+                "adaptation_efficiency": -0.12,
+                "stability_score": 0.05821416398857659
+            },
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.53% accuracy"
+            }
+        },
+        {
+            "session_id": 7,
+            "subtopic_id": "ST1.1.7",
+            "system_metrics": {
+                "difficulty_level": 0.7375206152114422,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.6476772999581765,
+                "learning_rate": 0.07999999999999996,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.61,
+                "engagement_level": 0.19244999999999995,
+                "motivation": 0.5449999999999999,
+                "cognitive_load": 0.2876330399324625,
+                "reaction_to_feedback": 0.3529841284772061
+            },
+            "derived_metrics": {
+                "growth_index": 0.07999999999999996,
+                "retention_rate": 0.4886205016520247,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.05540205551332946
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 8,
+            "subtopic_id": "ST1.1.8",
+            "system_metrics": {
+                "difficulty_level": 0.330929951098378,
+                "adaptations_triggered": 1,
+                "feedback_quality": 0.8848083388767134,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.59,
+                "engagement_level": 0.1,
+                "motivation": 0.44,
+                "cognitive_load": 0.13568127995033497,
+                "reaction_to_feedback": 0.3893156691057539
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.5906944744665652,
+                "adaptation_efficiency": -0.020000000000000018,
+                "stability_score": 0.054543560573178565
+            },
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "3 days",
+                "reason": "User performance: 0.59% accuracy"
+            }
+        },
+        {
+            "session_id": 9,
+            "subtopic_id": "ST1.1.9",
+            "system_metrics": {
+                "difficulty_level": 0.7159602274016197,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.611404879454351,
+                "learning_rate": 0.18000000000000005,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.77,
+                "engagement_level": 0.30895,
+                "motivation": 0.635,
+                "cognitive_load": 0.16467085230237252,
+                "reaction_to_feedback": 0.3882420984535129
+            },
+            "derived_metrics": {
+                "growth_index": 0.18000000000000005,
+                "retention_rate": 0.519911192722895,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06666666666666667
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 10,
+            "subtopic_id": "ST1.1.10",
+            "system_metrics": {
+                "difficulty_level": 0.44791076002452745,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.6134714737390289,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.75,
+                "engagement_level": 0.1225,
+                "motivation": 0.43,
+                "cognitive_load": 0.11197769000613186,
+                "reaction_to_feedback": 0.2637927337077824
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.72447696970285,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06999999999999999
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 11,
+            "subtopic_id": "ST1.1.11",
+            "system_metrics": {
+                "difficulty_level": 0.5415043279436258,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.820143476982105,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.73,
+                "engagement_level": 0.1,
+                "motivation": 0.425,
+                "cognitive_load": 0.14620616854477897,
+                "reaction_to_feedback": 0.34856097771739464
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.6651288105890469,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06971014368247569
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 12,
+            "subtopic_id": "ST1.1.12",
+            "system_metrics": {
+                "difficulty_level": 0.5993675531046885,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.565630583461442,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.71,
+                "engagement_level": 0.1,
+                "motivation": 0.42,
+                "cognitive_load": 0.17381659040035968,
+                "reaction_to_feedback": 0.23756484505380565
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.5980531138923351,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06782329983125268
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 13,
+            "subtopic_id": "ST1.1.13",
+            "system_metrics": {
+                "difficulty_level": 0.7093925474226461,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.5721809944636009,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.69,
+                "engagement_level": 0.1,
+                "motivation": 0.415,
+                "cognitive_load": 0.21991168970102035,
+                "reaction_to_feedback": 0.2374551127023944
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.5804252117329688,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06538009034115623
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 14,
+            "subtopic_id": "ST1.1.14",
+            "system_metrics": {
+                "difficulty_level": 0.3684000684224154,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.8451775580382432,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.6699999999999999,
+                "engagement_level": 0.1,
+                "motivation": 0.41,
+                "cognitive_load": 0.12157202257939712,
+                "reaction_to_feedback": 0.3465227987956797
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.5907692593847341,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06300307734628555
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 15,
+            "subtopic_id": "ST1.1.15",
+            "system_metrics": {
+                "difficulty_level": 0.5106135454476842,
+                "adaptations_triggered": 1,
+                "feedback_quality": 0.5810364943818613,
+                "learning_rate": -0.12,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.5499999999999999,
+                "engagement_level": 0.1,
+                "motivation": 0.305,
+                "cognitive_load": 0.22977609545145794,
+                "reaction_to_feedback": 0.1772161307864677
+            },
+            "derived_metrics": {
+                "growth_index": -0.12,
+                "retention_rate": 0.5904778809115058,
+                "adaptation_efficiency": -0.12,
+                "stability_score": 0.0679869268479038
+            },
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "4 days",
+                "reason": "User performance: 0.55% accuracy"
+            }
+        },
+        {
+            "session_id": 16,
+            "subtopic_id": "ST1.1.16",
+            "system_metrics": {
+                "difficulty_level": 0.7486095686612828,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.7417676085710211,
+                "learning_rate": 0.18000000000000005,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.73,
+                "engagement_level": 0.11800000000000005,
+                "motivation": 0.6000000000000001,
+                "cognitive_load": 0.20212458353854637,
+                "reaction_to_feedback": 0.4450605651426127
+            },
+            "derived_metrics": {
+                "growth_index": 0.18000000000000005,
+                "retention_rate": 0.5341883776063856,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.0677772085586298
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 17,
+            "subtopic_id": "ST1.1.17",
+            "system_metrics": {
+                "difficulty_level": 0.7548475822207776,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.7300762145821519,
+                "learning_rate": -0.12,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.61,
+                "engagement_level": 0.1,
+                "motivation": 0.295,
+                "cognitive_load": 0.2943905570661033,
+                "reaction_to_feedback": 0.2153724833017348
+            },
+            "derived_metrics": {
+                "growth_index": -0.12,
+                "retention_rate": 0.5887582447552201,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06713102408323343
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 18,
+            "subtopic_id": "ST1.1.18",
+            "system_metrics": {
+                "difficulty_level": 0.6313665079052435,
+                "adaptations_triggered": 1,
+                "feedback_quality": 0.6148295589972188,
+                "learning_rate": -0.019999999999999907,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.5900000000000001,
+                "engagement_level": 0.1,
+                "motivation": 0.3900000000000001,
+                "cognitive_load": 0.25886026824114977,
+                "reaction_to_feedback": 0.23978352800891542
+            },
+            "derived_metrics": {
+                "growth_index": -0.019999999999999907,
+                "retention_rate": 0.581217455297846,
+                "adaptation_efficiency": -0.019999999999999907,
+                "stability_score": 0.06741249472052227
+            },
+            "adaptation": {
+                "adaptive_status": "needs_review",
+                "adaptive_priority": "high",
+                "block_progression": true,
+                "add_study_time": "4 days",
+                "reason": "User performance: 0.59% accuracy"
+            }
+        },
+        {
+            "session_id": 19,
+            "subtopic_id": "ST1.1.19",
+            "system_metrics": {
+                "difficulty_level": 0.41943268793508015,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.8680101774630804,
+                "learning_rate": 0.08000000000000007,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.6700000000000002,
+                "engagement_level": 0.1,
+                "motivation": 0.4850000000000001,
+                "cognitive_load": 0.1384127870185764,
+                "reaction_to_feedback": 0.4209849360695941
+            },
+            "derived_metrics": {
+                "growth_index": 0.08000000000000007,
+                "retention_rate": 0.5075563938530958,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06565248896636916
+            },
+            "adaptation": {}
+        },
+        {
+            "session_id": 20,
+            "subtopic_id": "ST1.1.20",
+            "system_metrics": {
+                "difficulty_level": 0.8136610266269566,
+                "adaptations_triggered": 0,
+                "feedback_quality": 0.6689660252752814,
+                "learning_rate": -0.020000000000000018,
+                "content_type_preference": "visual"
+            },
+            "user_metrics": {
+                "score": 0.6500000000000001,
+                "engagement_level": 0.1,
+                "motivation": 0.38,
+                "cognitive_load": 0.2847813593194347,
+                "reaction_to_feedback": 0.2542070896046069
+            },
+            "derived_metrics": {
+                "growth_index": -0.020000000000000018,
+                "retention_rate": 0.618003041503372,
+                "adaptation_efficiency": 0,
+                "stability_score": 0.06403124237432847
+            },
+            "adaptation": {}
+        }
+    ],
+    "journey_metrics": {
+        "average_performance_change": -0.004999999999999993,
+        "engagement_consistency": 0.0796081360085136,
+        "adaptation_frequency_trend": 0.2,
+        "feedback_responsiveness_over_time": 0.30923166395220464
+    }
+}

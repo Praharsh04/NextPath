@@ -8,6 +8,29 @@ import google.generativeai as genai
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Replace with your API key
 genai.configure(api_key=GEMINI_API_KEY)
 
+
+def log_adaptation(user_id, adaptation_details):
+    """Logs adaptation changes to a JSON file."""
+    try:
+        log_dir = "D:\\Adaptive_Learning_model_V2\\Backend\\Model\\users_data\\Adaptations"
+        os.makedirs(log_dir, exist_ok=True)
+        log_file = os.path.join(log_dir, f"{user_id}_adapt.json")
+
+        if os.path.exists(log_file):
+            with open(log_file, "r") as f:
+                log_data = json.load(f)
+        else:
+            log_data = {"user_id": user_id, "adaptations": []}
+
+        log_data["adaptations"].append(adaptation_details)
+
+        with open(log_file, "w") as f:
+            json.dump(log_data, f, indent=4)
+
+    except Exception as e:
+        print(f"✗ Error in logging adaptation: {e}")
+
+
 def adaptive_learning_model(user_id):
     BASE_PATH = "D:\\Adaptive_Learning_model_V2\\Backend\\Model"
     SCORES_PATH = f"{BASE_PATH}\\users_data\\Test_scores_data"
@@ -29,7 +52,7 @@ def adaptive_learning_model(user_id):
         ai_analysis = analyze_with_ai(scores_data, roadmap_data, user_id)
         
         # Apply AI-recommended changes to specific subtopics only
-        changes_made = apply_ai_changes(roadmap_data, ai_analysis)
+        changes_made = apply_ai_changes(user_id, roadmap_data, ai_analysis)
         
         # Add metadata to track changes
         roadmap_data["adaptive_metadata"] = {
@@ -301,7 +324,7 @@ def fallback_analysis(scores_data, subtopics_list):
     }
 
 
-def apply_ai_changes(roadmap_data, ai_analysis):
+def apply_ai_changes(user_id, roadmap_data, ai_analysis):
     """
     Apply AI-recommended changes to specific subtopics in the roadmap
     Returns a summary of changes made
@@ -362,6 +385,16 @@ def apply_ai_changes(roadmap_data, ai_analysis):
                         
                         changes_made["modified_subtopics"].append(subtopic_title)
                         changes_made["total_changes"] += 1
+                        
+                        # Log the adaptation
+                        adaptation_details = {
+                            "timestamp": datetime.now().isoformat(),
+                            "adaptation_type": "difficulty_adjustment",
+                            "affected_section": subtopic_title,
+                            "change_description": f"Status changed to {change.get('status')}, priority to {change.get('priority')}",
+                            "reason": f"User performance: {change.get('current_accuracy')}% accuracy"
+                        }
+                        log_adaptation(user_id, adaptation_details)
                         
                         print(f"  ✓ Modified: {subtopic_title} → {change.get('status')}")
     
